@@ -9,6 +9,24 @@
         padding: 1rem 0;
     }
 
+    .trusted-container {
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+
+    .flower-img {
+        max-width: 100%;
+    }
+
+    .trusted-img {
+        max-width: 100%;
+
+    }
+
+    .seller-img {
+        display: none;
+    }
+
     .banner {
         flex-direction: column-reverse;
         padding: 0 2rem;
@@ -72,6 +90,20 @@
     .card-image {
         max-width: 100%;
     }
+
+    .trusted-img {
+        max-width: 100%;
+
+    }
+
+    .seller-img {
+        display: none;
+    }
+
+    .trusted-container {
+        flex-direction: column;
+    }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -81,6 +113,10 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         margin: 0 2rem;
+    }
+
+    .trusted-container {
+        flex-direction: column;
     }
 
     .banner {
@@ -101,10 +137,24 @@
     .card-image {
         max-width: 100%;
     }
+
+    .trusted-img {
+        max-width: 100%;
+
+    }
+
+    .seller-img {
+        display: none;
+    }
+
 }
 
 /* Large devices (desktops, 992px and up) */
-@media screen and (min-width: 992px) and (max-width: 1192px) {}
+@media screen and (min-width: 992px) and (max-width: 1192px) {
+    .title-text {
+        font-size: 3rem;
+    }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) and (max-width: 1400px) {

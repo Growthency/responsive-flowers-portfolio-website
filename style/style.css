@@ -73,7 +73,7 @@
     color: #252432;
 }
 
-ul li {
+.navbar ul li {
     list-style: none;
     display: inline;
     margin-right: 22px;
@@ -89,7 +89,7 @@ ul li {
     padding-right: 5px;
 }
 
-ul li a {
+.navbar ul li a {
     text-decoration: none;
 }
 
@@ -100,17 +100,18 @@ ul li a {
     padding-bottom: 5rem;
 }
 
+/* Our plants Sections style */
+
 .our-plants {
     max-width: 1140px;
     margin: 0 auto;
+    margin-bottom: 11rem;
 }
 
 .plants-header {
     text-align: center;
     padding: 1rem 1rem;
 }
-
-/* Our plants Sections style */
 
 .product-card {
     width: 100%;
@@ -121,10 +122,6 @@ ul li a {
 .product-image {
     width: 100%;
     display: block;
-}
-
-.card-content {
-    padding: 20px;
 }
 
 .product-title {
@@ -157,4 +154,31 @@ ul li a {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     justify-items: center;
+}
+
+/* Trusted Section style */
+.trusted-container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10rem;
+}
+
+.seller-img {
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    top: -125px;
+    right: -82px;
+}
+
+.trusted-text ul li {
+    margin-bottom: 1rem;
+}
+
+.trusted-text {
+    margin-left: 3rem;
+}
+
+.trusted-image {
+    position: relative;
 }
