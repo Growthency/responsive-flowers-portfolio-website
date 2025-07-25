@@ -3,7 +3,6 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media screen and (max-width: 576px) {
 
-    /* CSS rules for extra small devices go here */
     .navbar {
         flex-direction: column;
         padding: 1rem 0;
@@ -57,6 +56,10 @@
         max-width: 100%;
     }
 
+    .deals-section {
+        padding: 0 2rem;
+    }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -104,6 +107,10 @@
         flex-direction: column;
     }
 
+    .deals-section {
+        padding: 0 2rem;
+    }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -117,6 +124,10 @@
 
     .trusted-container {
         flex-direction: column;
+    }
+
+    .deals-section {
+        padding: 0 2rem;
     }
 
     .banner {
@@ -153,6 +164,10 @@
 @media screen and (min-width: 992px) and (max-width: 1192px) {
     .title-text {
         font-size: 3rem;
+    }
+
+    .deals-section {
+        padding: 0 2rem;
     }
 }
 
