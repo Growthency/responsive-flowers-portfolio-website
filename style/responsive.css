@@ -58,8 +58,40 @@
 
     .deals-section {
         padding: 0 2rem;
+        padding-bottom: 5rem;
     }
 
+    h1.title-text.join-text {
+        margin-top: 0px;
+        font-size: 30px;
+    }
+
+    .form-wrapper input[type="email"] {
+        padding: 15px 10px;
+
+    }
+
+    .deals-container {
+        flex-direction: column;
+    }
+
+    .deal-card h1 {
+        font-size: 1.8rem;
+    }
+
+    .deal-card p {
+        font-size: 1rem;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+        justify-content: left;
+        padding: 1rem 2rem;
+    }
+
+    .footer-wrapper ul {
+        padding-left: 0px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -67,6 +99,16 @@
     .banner {
         flex-direction: column-reverse;
         padding: 0 2rem;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+        justify-content: left;
+        padding: 1rem 2rem;
+    }
+
+    .footer-wrapper ul {
+        padding-left: 0px;
     }
 
     .plants-card {
@@ -109,6 +151,7 @@
 
     .deals-section {
         padding: 0 2rem;
+        padding-bottom: 5rem;
     }
 
 }
@@ -128,6 +171,7 @@
 
     .deals-section {
         padding: 0 2rem;
+        padding-bottom: 5rem;
     }
 
     .banner {
@@ -168,6 +212,7 @@
 
     .deals-section {
         padding: 0 2rem;
+        padding-bottom: 5rem;
     }
 }
 
